@@ -88,5 +88,4 @@ export class PessoaService {
       .toPromise()
       .then(response => response.json() as Pessoa);
   }
-
 }

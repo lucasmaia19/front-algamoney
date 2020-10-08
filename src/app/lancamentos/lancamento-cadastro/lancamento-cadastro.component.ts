@@ -24,7 +24,9 @@ export class LancamentoCadastroComponent implements OnInit {
 
   categorias = [];
   pessoas = [];
+
   lancamento = new Lancamento();
+  //lancamento: Lancamento;
 
   constructor(
     private categoriaService: CategoriaService,
